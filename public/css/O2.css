@@ -461,6 +461,14 @@ section>.about-pages .profile {
         display: none;
     }
 
+    .lft {
+        margin-left: 15%;
+    }
+    
+    .rgt {
+        margin-right: 15%;
+    }
+
 }
 
 .h2-c {
@@ -470,12 +478,7 @@ section>.about-pages .profile {
 
 .p-c {
     text-align: center;
-
-
-
 }
-
-
 
 
 @media (max-width: 736px) {
@@ -780,7 +783,7 @@ section>.about-pages .inner {
 
 @media screen and (max-width: 1440px) {
     section>.about-pages .inner {
-        padding: 3em 3em 0em 3em;
+        padding: 5em 3em 0em 3em;
         max-width: 100%;
     }
 }
@@ -834,6 +837,7 @@ section>.about-pages .inner {
 }
 
 .button:hover {
-    background-color: rgb(248, 247, 247,0.2);
+    background-color: rgb(248, 247, 247, 0.2);
     /* transition: white 0.2s ease; */
 }
+
